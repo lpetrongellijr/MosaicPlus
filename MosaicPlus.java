@@ -1,7 +1,7 @@
 /******************************************************************************
  * Copyright (C) 2019 Sarah Mahram and Luciano Petrongelli
  * 
- * This file is a stand-alone library liscensed under the BSD-3-Clause
+ * This file is a stand-alone library liscensed under the MIT
  * 
  * You are free to reuse the unmodified version of this file in your projects
  * as long as you give credit to the library in your source code.  
