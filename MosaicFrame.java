@@ -306,7 +306,7 @@ class MosaicFrame extends JFrame implements ActionListener{
     public static void play(){ // Sound for clicking Randomize button
         try {
             Clip clip = AudioSystem.getClip(); //Entry point to audio system resources
-            clip.open(AudioSystem.getAudioInputStream(new File("\\Swoosh.wav")));
+            clip.open(AudioSystem.getAudioInputStream(new File("Swoosh.wav"))); //locates sound file
             clip.start();
         } catch (Exception exc) {
             exc.printStackTrace(System.out);
@@ -316,7 +316,7 @@ class MosaicFrame extends JFrame implements ActionListener{
     public static void play2(){//Sound for clicking tiles
         try {
             Clip clip = AudioSystem.getClip(); //Entry point to audio system resources
-            clip.open(AudioSystem.getAudioInputStream(new File("\\MouseDoubleClick.wav")));
+            clip.open(AudioSystem.getAudioInputStream(new File("MouseDoubleClick.wav"))); //locates sound file
             clip.start();
         } catch (Exception exc) {
             exc.printStackTrace(System.out);
